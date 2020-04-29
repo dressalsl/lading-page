@@ -9,12 +9,23 @@ body {
 }
 
 #nav-bar {
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #87bfff,#0F29FC);
+    background-color: #0067ff;
     padding: 0 !important;
+    height: 70px;
+}
+
+.nav-item {
+    margin-inline: 20px;
+}
+
+#logo {
+    width: 150px;
+    margin-inline: 20px;
+    
 }

@@ -15,17 +15,60 @@ body {
 }
 
 .navbar {
-    background-color: #0067ff;
+    background-image: linear-gradient(to right, #0067ff,#0039c2 );
     padding: 0 !important;
     height: 70px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    float: right;
+    text-align: left;
 }
 
 .nav-item {
     margin-inline: 20px;
 }
 
-#logo {
+.navbar-brand img {
     width: 150px;
-    margin-inline: 20px;
+    margin-inline: 100px;
+    margin-top: 20px;
     
 }
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*-----------banner-----------*/
+
+#banner {
+    background-image: linear-gradient(to right, #0067ff,#0039c2 );
+    color: #fff;
+    padding-top: 2%;
+
+}
+
+.ola {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+.bem-vindo{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+ 

@@ -47,7 +47,6 @@ body {
     outline: none !important;
 }
 
-/*-----------banner-----------*/
 
 #banner {
     background-image: linear-gradient(to right, #0067ff,#0039c2 );
@@ -68,7 +67,26 @@ body {
     margin-top: 10px;
 }
 
+
 .bottom-img {
-    width: 100%;
-}
- 
+    position: static;
+    width: 1920px;
+    height: 227px;
+    margin-inline: -100px;
+    display: flex;
+ }
+
+
+ #sobre-mim {
+     padding: 30px 0;
+ }
+
+ #h-sobre-mim {
+    text-align: center;
+ }
+
+ .img-sobre-mim{
+     border-radius: 50%;
+     width: 100%;
+     margin-top: 100px;
+ }
